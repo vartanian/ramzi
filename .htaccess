@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.(?:css|js|jpe?g|gif|png)$ [NC]
+RewriteRule ^([^\.]+)$ views/$1.php [NC,L]
+# rewrite css, js and images, from root
+RewriteRule ^abc/[^/]+/[^/]+/(.+)$ $1  [L]
