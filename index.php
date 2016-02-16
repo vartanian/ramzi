@@ -30,15 +30,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">RAMZI JALOUDI | REAL ESTATE</a>
+          <a class="navbar-brand logo Type" href="#" class="center">RAMZI JALOUDI<span class="subtitle center">real estate agent</span></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="bio">BIO</a></li>
-            <li><a href="search">SEARCH</a></li>
-            <li><a href="listings">LISTINGS</a></li>
+             <li id="searchProp"><a href="search">SEARCH LISTINGS</a></li>
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AGENT.INFO<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="listings">My Listings</a></li>
+                  <li><a href="testimonials">Testimonials</a></li>
+                  <li><a href="press">Press</a></li>
+                  <li><a href="bio">Who is Jaloudi?</a></li>
+                </ul>
+             </li>
             <li><a href="services">SERVICES</a></li>
-            <li><a href="testimonials">TESTIMONIALS</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT <span class="caret"></span></a>
               <ul class="dropdown-menu">

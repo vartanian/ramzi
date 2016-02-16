@@ -1,6 +1,44 @@
 @import url("config.css");
 @import url("footer.css");
 
+/*#searchProp a, #searchRent a{
+    width: 126px;
+    height: 120px;
+    max-width: 100%;
+    margin-top: 10px;
+    zoom:25%;
+}
+#searchProp a{
+    background: url('../images/re_icon_sprite.png') 0 -992px;
+}*/
+
+
+.navbar-default{
+  background-color: #fff;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a{
+  color: #000;
+}
+.navbar-brand{
+  height: 60px;
+}
+span.subtitle {
+    display: block;
+    font-size: 12px;
+}
+.navbar-toggle{
+  border-radius: 0;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #000;
+}
+
+.navbar-nav>li>a{
+  padding-top: 20px;
+}
+
+
 
 /* MEDIA QUERIES */
 @media (max-width: 900px){
@@ -51,4 +89,10 @@
   }
 
   /* FORCE NAV COLLAPSE END */
+}
+
+@media(max-width: 768px){
+  ul.nav.navbar-nav{
+    margin-left: -10px;
+  }
 }
